@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我必须自托管社区，确保安全。</title>
+	<meta name="description" content="我如何进行编程创作呢？我必须自托管社区，确保安全。" />
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="HandheldFriendly" content="True">
+
+	<link rel="icon" href="/assets/favicon/favicon.ico">
+	<link rel="icon" href="/assets/favicon/favicon.svg" type="image/svg+xml" sizes="any">
+	<link rel="apple-touch-icon" href="/assets/favicon/apple.png">
+	<meta name="theme-color" content="#203038">
+	<link rel="manifest" href="/assets/manifest.json">
+
+	<meta property="og:url" content="/self-zc/" />
+	<meta property="og:site_name" content="ZeroCat" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="我必须自托管社区，确保安全。" />
+	<meta property="og:description" content="我如何进行编程创作呢？我必须自托管社区，确保安全。" />
+		<meta property="og:image" content="/assets/img/image.png" />
+
+	<link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+<body class=" self-zc">
+
+	<main class="page">
+		<header class="header alignfull">
+	<div class="header-content">
+		<div class="logo-wrapper">
+			<img class="logo" src="/assets/img/cn-logo.svg" alt="logo" />
+		</div>
+	</div>
+</header>
+
+<section class="layout-wrapper">
+	<div class="container-lg">
+		<h1 class="page-title">我必须自托管社区，确保安全。</h1>
+	</div>
+	<div class="container-lg media-and-text wide-left">
+		<picture class="media">
+	    <source type="image/jpeg" srcset="/assets/img/image.png 400w, /assets/img/image.png 800w" sizes="(min-width: 1024px) 100vw, 50vw">
+  <source type="image/webp" srcset="/assets/img/image.png 400w, /assets/img/image.png 800w" sizes="(min-width: 1024px) 100vw, 50vw">
+	  <img
+		src="/assets/img/image.png"
+		width="400"
+		height="266"
+		alt="woman with heart of light"
+		loading="lazy"
+		decoding="async">
+	</picture>
+		<div class="text">
+			<p>有时候，并不是注册一个账号就可以安心创作的。</p>
+			<p>啊没准你是一名培训班老师需要为你的学生托管一个社区。</p>
+			<p>我们便为此存在。</p>
+
+			<p>PS:这里没有整活，如果你真的需要自托管编程社区，欢迎加q群964979747</p>
+
+		</div>
+	</div>
+</section>
+
+
+
+<section class="layout-wrapper">
+	<div class="container-md">
+		<blockquote>
+			<cite>ZeroCat 完全开源
+			</cite>
+			<p>自豪的作为国内少有的完整开源且内容完善的编程社区，我们向您提供了完整的在线编程解决方案
+			</p>
+
+		</blockquote>
+	</div>
+</section>
+
+
+
+<style>
+  .form-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .form-header {
+    width: 100%;
+    text-align: right;
+  }
+  .center {
+    text-align: center;
+  }
+</style>
+
+<section class="layout-wrapper form-content">
+  <div class="form-header">
+    <span title="Close" style="display:none;cursor:pointer;font-size:45px;margin:auto;color:#fff;" onclick="closePopup()">&times;</span>
+  </div>
+  <div class="container-md form">
+    <div id="form-wrapper">
+      <div id="iframe-container">
+        <iframe id="lazy-iframe"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Popup -->
+<style>
+	.popup {
+		display: none;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.75);
+		z-index: 9999;
+		overflow-y: auto;
+	}
+	#popup-button {
+		position: fixed;
+		right: 3rem;
+		bottom: 3rem;
+		padding: 0.5rem;
+		width: 10rem;
+		white-space: normal;
+		opacity: 0;
+		transition: opacity 0.2s;
+		min-height: 70px;
+	}
+</style>
+
+<div id="popup" class="popup">
+  <div class="popup-content">
+    <style>
+  .form-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .form-header {
+    width: 100%;
+    text-align: right;
+  }
+  .center {
+    text-align: center;
+  }
+</style>
+
+<section class="layout-wrapper form-content">
+  <div class="form-header">
+    <span title="Close" style="display:none;cursor:pointer;font-size:45px;margin:auto;color:#fff;" onclick="closePopup()">&times;</span>
+  </div>
+  <div class="container-md form">
+    <div id="form-wrapper">
+      <div id="iframe-container">
+        <iframe id="lazy-iframe"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+  </div>
+</div>
+<button id="popup-button" onclick="showPopup()">
+	打开ZeroCat
+</button>
+
+<script>
+	document.addEventListener("DOMContentLoaded", function() {
+		var body = document.querySelector('body');
+		var popup = document.getElementById("popup");
+		// var paragraph = document.querySelector('.popup-content .layout-wrapper .form-header p');
+		var clsBtnSpan = document.querySelector('.popup-content .layout-wrapper .form-header span');
+		var popupButton = document.getElementById('popup-button');
+
+		function closePopup() {
+			popup.style.display = "none";
+			clsBtnSpan.style.display = "none";
+			body.style.overflow = "auto";
+		};
+		window.closePopup = closePopup;
+
+		function showPopup() {
+			window.open("https://zerocat.houlangs.com", "_blank");
+			body.style.overflow = "hidden"; // you should use "hidden" instead of "none"
+			// paragraph.style.display = "none";
+			clsBtnSpan.style.display = "block";
+			popup.style.display = "block";
+			sessionStorage.setItem('popupShown', 'true'); // Store a flag in session storage
+		};
+		window.showPopup = showPopup;
+
+		function showPopupButton() {
+			popupButton.style.opacity = 1;
+		}
+
+		window.addEventListener("scroll", function() {
+
+			var scrollHeight = Math.max(
+				document.body.scrollHeight, document.documentElement.scrollHeight,
+				document.body.offsetHeight, document.documentElement.offsetHeight,
+				document.body.clientHeight, document.documentElement.clientHeight
+			);
+			var scrollPosition = window.pageYOffset;
+
+			if (scrollPosition / scrollHeight > 0.35) { // If user scrolled more than 35%
+				showPopupButton();
+				window.removeEventListener('scroll', arguments.callee); // Remove the event listener
+			}
+		});
+	});
+</script>
+
+
+	</main>
+
+	<footer class="layout-wrapper">
+	<div class="container-md">
+		<!-- Logo -->
+		<div class="logo-wrapper">
+			<img class="logo" src="/assets/img/cn-logo.svg" alt="logo" />
+		</div>
+		<p>
+万疑万寻愿与你一同寻找编程中各种困惑的答案！简而言之我们就是个正常的编程社区。		</p>
+		这只是一个搞笑网站，如果你看到类似但比较奇怪的页面，请查看<a class="" href="https://www.chinafxj.cn">中国反邪教</a>网站
+	</div>
+</footer>
+
+<!-- Font -->
+<script>
+(function(d) {
+    var config = {
+      kitId: 'vsh5fbg',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+
+<!-- Main Scripts -->
+<script type="module" async src="/assets/js/script.js"></script>
+
+
+
+</body>
+</html>
